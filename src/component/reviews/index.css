@@ -1,0 +1,32 @@
+.rev__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.rev__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.rev {
+  display: flex;
+  justify-content: space-between;
+}
+.rev__name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+.rev__rat {
+  font-size: 16px;
+  color: #000;
+}
+.rev__des {
+  font-size: 16px;
+  color: #000;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

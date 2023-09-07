@@ -1,0 +1,14 @@
+.property {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.property__list {
+  padding-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+

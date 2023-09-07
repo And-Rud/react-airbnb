@@ -1,0 +1,17 @@
+.att {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.att__list {
+  padding-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.att__item {
+  color: #000;
+  font-size: 16px;
+}

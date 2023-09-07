@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.contact {
+  display: flex;
+
+  gap: 20px;
+}
+.contact__title {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.contact__text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+.contact__sub-block {
+  display: flex;
+  gap: 16px;
+}
+.contact__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.contact__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
